@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.fluidity.platform</groupId>
+  <artifactId>composition-container-spi</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160819234415</lastUpdated>
+  </versioning>
+</metadata>

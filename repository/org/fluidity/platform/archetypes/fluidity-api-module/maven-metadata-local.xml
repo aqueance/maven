@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.fluidity.platform.archetypes</groupId>
+  <artifactId>fluidity-api-module</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160819234426</lastUpdated>
+  </versioning>
+</metadata>

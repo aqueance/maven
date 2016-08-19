@@ -1,0 +1,143 @@
+<!--
+  Copyright (c) 2006-2016 Tibor Adam Varga (tibor.adam.varga on gmail)
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>org.fluidity.platform</groupId>
+        <artifactId>plugins</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>standalone-war-maven-plugin</artifactId>
+    <packaging>maven-plugin</packaging>
+    <name>Build Plugins: Standalone WAR</name>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <description><![CDATA[
+This plugin takes the host project's WAR artifact and produces an executable
+WAR file out of it. When executed, that WAR file will deploy itself
+and all other WAR files specified on the command line in an embedded Jetty
+server. The server will bootstrap a ComponentContainer and offer it as a
+parent container for the deployed web applications.
+
+You configure the web server's classpath by a &lt;dependencies> section
+in the plugin configuration of your host project. To use the default
+Jetty server bootstrap, add the following dependency to the plugin in your
+project:
+
+&lt;dependency>
+    &lt;groupId>org.fluidity.platform&lt;/groupId>
+    &lt;artifactId>war-bootstrap-jetty-impl&lt;/artifactId>
+    &lt;version>${fluid.tools.version}&lt;/version>
+&lt;/dependency>
+
+The server can also be stopped by pressing Ctrl-C.
+
+You can implement your own server bootstrap with the web container of your
+choice by providing an implementation to the
+<code>org.fluidity.deployment.plugin.spi.ServerBootstrap</code> interface from
+the <code>org.fluidity.deployment:war-bootstrap-spi</code> module and package
+it in a JAR file or, ideally, in a Maven module.
+
+In case of a Maven module, the module may not depend on anything used by the
+WAR applications themselves because class incompatibilities are likely to occur
+due to different class loader domains. Moreover, any dependency of the Maven
+module that should not be visible to the deployed WAR applications must be
+declared optional in the POM.
+
+You can then use the Maven module containing your own server bootstrap in place
+of the <code>org.fluidity.deployment:war-bootstrap-jetty-impl</code> dependency
+above.
+    ]]></description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-artifact</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugin-tools</groupId>
+            <artifactId>maven-plugin-annotations</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.aether</groupId>
+            <artifactId>aether-impl</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>${fluidity.groupId}</groupId>
+            <artifactId>maven-plugin-support</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${fluidity.groupId}</groupId>
+            <artifactId>war-bootstrap</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-testCompile</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-test</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

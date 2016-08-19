@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Aug 20 02:44:26 EEST 2016
+fluidity-standalone-war-1.0.0-SNAPSHOT.jar>=
+fluidity-standalone-war-1.0.0-SNAPSHOT-sources.jar>=
+fluidity-standalone-war-1.0.0-SNAPSHOT.pom>=

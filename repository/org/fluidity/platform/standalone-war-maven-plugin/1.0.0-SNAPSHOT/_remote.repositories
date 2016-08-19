@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Aug 20 02:44:26 EEST 2016
+standalone-war-maven-plugin-1.0.0-SNAPSHOT.pom>=
+standalone-war-maven-plugin-1.0.0-SNAPSHOT-sources.jar>=
+standalone-war-maven-plugin-1.0.0-SNAPSHOT.jar>=

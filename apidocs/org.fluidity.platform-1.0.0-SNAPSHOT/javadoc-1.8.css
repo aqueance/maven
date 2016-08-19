@@ -1,0 +1,28 @@
+/* Javadoc style sheet */
+@import url("https://docs.oracle.com/javase/8/docs/api/stylesheet.css");
+
+body { background-color: #FFFFFF; color: #000000; }
+
+/* Fonts */
+body, div.block, dl dd, .contentContainer .description dl dd, .contentContainer .details dl dd, .serializedFormContainer dl dd { font: 13px Arial, Helvetica, sans-serif; }
+
+/* Indents */
+dl dd, .contentContainer .description dl dd, .contentContainer .details dl dd, .serializedFormContainer dl dd {
+    margin-left: 1em;
+}
+
+/* Headings */
+h1, th font/*[size=+2]*/ { font-size: 140% }
+h2 { font-size: 140% }
+
+font[size=-1] { font-size: 90% }
+
+pre, tt, code, kbd, samp, xmp { font-family: 'DejaVu Sans Mono', Courier, monospace; }
+pre { background: #F8F8F8; color: #000000 }
+
+.hl1 { font-weight: bolder; }
+.hl1, .hl1 a { color: maroon; }
+.hl2, .hl2 a { color: navy; }
+.hl3, .hl3 a { color: teal; }
+
+.aboutLanguage { margin-top: 0; }

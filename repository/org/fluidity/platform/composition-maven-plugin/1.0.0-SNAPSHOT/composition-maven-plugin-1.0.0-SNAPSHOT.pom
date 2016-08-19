@@ -1,0 +1,171 @@
+<!--
+  Copyright (c) 2006-2016 Tibor Adam Varga (tibor.adam.varga on gmail)
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>org.fluidity.platform</groupId>
+        <artifactId>plugins</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>composition-maven-plugin</artifactId>
+    <packaging>maven-plugin</packaging>
+    <name>Build Plugins: Composition</name>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <description><![CDATA[
+This plugin scans class files for annotations that instruct it to generate
+service provider descriptor files as per the JAR file specification:
+https://docs.oracle.com/javase/8/docs/technotes/guides/jar/jar.html#Service_Provider.
+
+There are two annotations that this plugin looks for.
+
+The @org.fluidity.composition.Component annotation marks a component for which
+the plugin creates a PackageBindings class that binds the component to its
+interface. How that interface is determined is described in the annotation's
+Javadoc. The name of the PackageBindings class generated for a @Component will
+be PackageBindings$ followed by the module's name. The package of the
+PackageBindings class will be the same as that of the @Component. Each
+PackageBinding class that has been generated is added to a service provider
+descriptor file in the project artifact's classpath under
+META-INF/services/org.fluidity.composition.spi.PackageBindings. That file will
+be created if none exists in the project.
+
+The @org.fluidity.composition.ComponentGroup annotation marks components that
+are grouped under a common interface and as some sort of service providers they
+are used together.
+
+The @org.fluidity.composition.ServiceProvider annotation marks a component
+that itself needs to be found by scanning the class path for service providers
+implementing a given interface. For each @ServiceProvider found the plugin
+generates a service provider descriptor file under META-INF/services/&lt;full
+class name of the Service Provider interface> unless one already exists.
+    ]]></description>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>${fluidity.groupId}</groupId>
+            <artifactId>foundation-utils</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${fluidity.groupId}</groupId>
+            <artifactId>composition-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${fluidity.groupId}</groupId>
+            <artifactId>maven-plugin-support</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-core</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-model</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-artifact</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugin-tools</groupId>
+            <artifactId>maven-plugin-annotations</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>${asm.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-commons</artifactId>
+            <version>${asm.version}</version>
+        </dependency>
+
+<!--
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-util</artifactId>
+            <version>${asm.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-analysis</artifactId>
+            <version>${asm.version}</version>
+        </dependency>
+-->
+
+    </dependencies>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-testCompile</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-test</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>
+</project>

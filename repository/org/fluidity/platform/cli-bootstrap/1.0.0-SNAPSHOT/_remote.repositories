@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Aug 20 02:44:22 EEST 2016
+cli-bootstrap-1.0.0-SNAPSHOT.pom>=
+cli-bootstrap-1.0.0-SNAPSHOT.jar>fluid-tools=
+cli-bootstrap-1.0.0-SNAPSHOT.pom>fluid-tools=
+cli-bootstrap-1.0.0-SNAPSHOT-sources.jar>=
+cli-bootstrap-1.0.0-SNAPSHOT.jar>=

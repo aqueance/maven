@@ -1,0 +1,17 @@
+org.fluidity.composition
+org.fluidity.composition.container
+org.fluidity.composition.container.spi
+org.fluidity.composition.spi
+org.fluidity.composition.web
+org.fluidity.deployment.cli
+org.fluidity.deployment.launcher
+org.fluidity.deployment.osgi
+org.fluidity.deployment.plugin.spi
+org.fluidity.features
+org.fluidity.foundation
+org.fluidity.foundation.jarjar
+org.fluidity.foundation.security
+org.fluidity.foundation.spi
+org.fluidity.foundation.testing
+org.fluidity.management
+org.fluidity.testing

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.fluidity</groupId>
+  <artifactId>platform</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160819234408</lastUpdated>
+  </versioning>
+  <plugins>
+    <plugin>
+      <name>Build Plugins: Composition</name>
+      <prefix>composition</prefix>
+      <artifactId>composition-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Build Plugins: Standalone JAR</name>
+      <prefix>standalone-jar</prefix>
+      <artifactId>standalone-jar-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>Build Plugins: Standalone WAR</name>
+      <prefix>standalone-war</prefix>
+      <artifactId>standalone-war-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
