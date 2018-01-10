@@ -135,8 +135,6 @@ mkdir -p "${LOG_DIR}"
 LOG_FILE="${LOG_DIR}/${PROJECT_ID}-${VERSION}-build-log.txt"
 echo "Build log: ${LOG_FILE}"
 
-echo "Staging ${NAME} ${VERSION} (${PROJECT_ID}) commit ${COMMIT} at $(date)" | tee "${LOG_FILE}"
-
 function prepare {
     local BRANCH=$(git branch | grep '*' | cut -d\  -f2)
     [ "${BRANCH}" == "master" ] || die "Deployment aborted on branch ${BRANCH}"
@@ -147,6 +145,8 @@ function prepare {
     [ -d "${STAGING}" ] && [ ! -d "${STAGING}/.git" ] && die "${STAGING} is not a Git repository."
 
     [ -z "$(cd "${STAGING}"; git status --porcelain -uno)" ] || die "Staging repository not pristine"
+
+    echo "Staging ${NAME} ${VERSION} (${PROJECT_ID}) commit ${COMMIT} at $(date)" | tee "${LOG_FILE}"
 }
 
 function artifacts {
