@@ -1,4 +1,4 @@
-Staging Fluid Tools 1.0.0-SNAPSHOT (org.fluidity.platform) commit f25931237e54852cbd3b5050c79cc3031be2febb at Sat Aug 20 02:43:58 EEST 2016
+Staging Fluid Tools 1.0.0-SNAPSHOT (org.fluidity.platform) commit 93f274c2fdd55f31bf5a1ea54bacf7fd1e23984c at Thu Jan 11 00:15:35 EET 2018
 Generating artifacts to /Users/fluidity/Work/Fluid Tools/fluid-tools/staging/repository
 [INFO] Scanning for projects...
 [INFO] ------------------------------------------------------------------------
@@ -108,16 +108,16 @@ Generating artifacts to /Users/fluidity/Work/Fluid Tools/fluid-tools/staging/rep
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ foundation-api ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-api/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ foundation-api ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ foundation-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-api/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-api
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ foundation-api ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundation-api ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 6 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-api/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ foundation-api ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ foundation-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-api/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-api
@@ -140,24 +140,24 @@ Generating artifacts to /Users/fluidity/Work/Fluid Tools/fluid-tools/staging/rep
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ foundation-security ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-security/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ foundation-security ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ foundation-security ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-security/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-security
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ foundation-security ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundation-security ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-security/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ foundation-security ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ foundation-security ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-security/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-security
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ foundation-security ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ foundation-security ---
 [INFO] No sources to compile
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ foundation-security ---
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ foundation-security ---
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ foundation-security ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-security/target/foundation-security-1.0.0-SNAPSHOT.jar
@@ -177,35 +177,35 @@ Generating artifacts to /Users/fluidity/Work/Fluid Tools/fluid-tools/staging/rep
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ foundation-utils ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-utils/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ foundation-utils ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ foundation-utils ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-utils
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ foundation-utils ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundation-utils ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 17 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-utils/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ foundation-utils ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ foundation-utils ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 6 resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ foundation-utils ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ foundation-utils ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 11 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-utils/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ foundation-utils ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 70, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.528 sec - in TestSuite
-
-Results :
-
-Tests run: 70, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ foundation-utils ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 77, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.53 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 77, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ foundation-utils ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-utils/target/foundation-utils-1.0.0-SNAPSHOT.jar
@@ -236,16 +236,16 @@ Tests run: 70, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-api ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-api/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-api ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-api/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-api
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-api ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-api ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 20 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-api/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-api ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-api/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-api
@@ -268,36 +268,36 @@ Tests run: 70, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ foundation-easymock ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-easymock/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ foundation-easymock ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ foundation-easymock ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-easymock/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-easymock
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ foundation-easymock ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundation-easymock ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-easymock/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ foundation-easymock ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ foundation-easymock ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-easymock/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-easymock
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ foundation-easymock ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ foundation-easymock ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-easymock/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ foundation-easymock ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.fluidity.testing.SimulatorTest
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.734 sec - in org.fluidity.testing.SimulatorTest
-
-Results :
-
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ foundation-easymock ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.fluidity.testing.SimulatorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.676 s - in org.fluidity.testing.SimulatorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ foundation-easymock ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-easymock/target/foundation-easymock-1.0.0-SNAPSHOT.jar
@@ -328,19 +328,19 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ maven-plugin-support ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/maven-plugin-support/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ maven-plugin-support ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ maven-plugin-support ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/maven-plugin-support/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/maven-plugin-support
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ maven-plugin-support ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ maven-plugin-support ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 7 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/build/maven-plugin-support/target/classes
 [INFO] 
-[INFO] --- plexus-component-metadata:1.7:generate-metadata (default) @ maven-plugin-support ---
+[INFO] --- plexus-component-metadata:1.7.1:generate-metadata (default) @ maven-plugin-support ---
 [INFO] Discovered 2 component descriptors(s)
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ maven-plugin-support ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ maven-plugin-support ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/maven-plugin-support/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/maven-plugin-support
@@ -374,21 +374,21 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-maven-plugin ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/composition-maven-plugin/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-maven-plugin ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/composition-maven-plugin/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-maven-plugin
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-maven-plugin ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-maven-plugin ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 5 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/composition-maven-plugin/target/classes
 [INFO] 
-[INFO] --- maven-plugin-plugin:3.4:descriptor (default-descriptor) @ composition-maven-plugin ---
-[INFO] Using 'UTF-8' encoding to read mojo metadata.
-[INFO] Mojo extractor with id: java-javadoc found 0 mojo descriptors.
-[INFO] Mojo extractor with id: java-annotations found 2 mojo descriptors.
+[INFO] --- maven-plugin-plugin:3.5:descriptor (default-descriptor) @ composition-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 2 mojo descriptors.
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-maven-plugin ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/composition-maven-plugin/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-maven-plugin
@@ -396,7 +396,7 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ composition-maven-plugin ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/composition-maven-plugin/target/composition-maven-plugin-1.0.0-SNAPSHOT.jar
 [INFO] 
-[INFO] --- maven-plugin-plugin:3.4:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ composition-maven-plugin ---
+[INFO] --- maven-plugin-plugin:3.5:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ composition-maven-plugin ---
 [INFO] 
 [INFO] --- maven-source-plugin:3.0.1:jar-no-fork (default) @ composition-maven-plugin ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/composition-maven-plugin/target/composition-maven-plugin-1.0.0-SNAPSHOT-sources.jar
@@ -413,12 +413,12 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ foundation-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ foundation-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ foundation-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ foundation-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundation-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-impl/target/classes
 [INFO] 
@@ -432,27 +432,27 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
 [INFO]     org.fluidity.foundation.StandardOutLogFactory
 [INFO]     org.fluidity.foundation.ConfigurationImpl
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ foundation-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ foundation-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ foundation-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ foundation-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-impl/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ foundation-impl ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.fluidity.foundation.ConfigurationTest
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.385 sec - in org.fluidity.foundation.ConfigurationTest
-
-Results :
-
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ foundation-impl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.fluidity.foundation.ConfigurationTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 s - in org.fluidity.foundation.ConfigurationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ foundation-impl ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-impl/target/foundation-impl-1.0.0-SNAPSHOT.jar
@@ -483,16 +483,16 @@ Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ foundation-scheduling-api ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-api/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ foundation-scheduling-api ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ foundation-scheduling-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-api/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-scheduling-api
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ foundation-scheduling-api ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundation-scheduling-api ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-api/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ foundation-scheduling-api ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ foundation-scheduling-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-api/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-scheduling-api
@@ -515,21 +515,21 @@ Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ foundation-test-support ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-test-support/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ foundation-test-support ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ foundation-test-support ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-test-support/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-test-support
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ foundation-test-support ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundation-test-support ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-test-support/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ foundation-test-support ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ foundation-test-support ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/foundation/foundation-test-support/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-test-support
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ foundation-test-support ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ foundation-test-support ---
 [INFO] No sources to compile
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ foundation-test-support ---
@@ -550,16 +550,16 @@ Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-container-spi ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-spi/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-container-spi ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-container-spi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-spi/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-spi
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-container-spi ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-container-spi ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 10 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-spi/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-container-spi ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-container-spi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-spi/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-spi
@@ -582,36 +582,36 @@ Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-container-support ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-container-support ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-container-support ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-support
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-container-support ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-container-support ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 6 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-container-support ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-container-support ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-support
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ composition-container-support ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ composition-container-support ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 57 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ composition-container-support ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.413 sec - in TestSuite
-
-Results :
-
-Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ composition-container-support ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 43, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.39 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ composition-container-support ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support/target/composition-container-support-1.0.0-SNAPSHOT.jar
@@ -631,12 +631,12 @@ Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ logging-sink-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-sink-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ logging-sink-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ logging-sink-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-sink-impl/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-sink-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ logging-sink-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ logging-sink-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-sink-impl/target/classes
 [INFO] 
@@ -649,7 +649,7 @@ Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.foundation.NoLogFactory
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ logging-sink-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ logging-sink-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-sink-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-sink-impl
@@ -672,12 +672,12 @@ Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-bootstrap-support ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-bootstrap-support/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-bootstrap-support ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-bootstrap-support ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-bootstrap-support
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-bootstrap-support ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-bootstrap-support ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 9 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-bootstrap-support/target/classes
 [INFO] 
@@ -690,12 +690,12 @@ Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.composition.spi.ContainerTerminationJobs
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-bootstrap-support ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-bootstrap-support ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-bootstrap-support/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-bootstrap-support
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ composition-bootstrap-support ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ composition-bootstrap-support ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-bootstrap-support/target/test-classes
 [INFO] 
@@ -707,18 +707,18 @@ Tests run: 43, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   org.fluidity.composition.ContainerBootstrapImplTest$DependentPackageBindingsImpl
 [INFO]   org.fluidity.composition.ContainerBootstrapImplTest$ResponsiblePackageBindingsImpl
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ composition-bootstrap-support ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.436 sec - in TestSuite
-
-Results :
-
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ composition-bootstrap-support ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.348 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ composition-bootstrap-support ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-bootstrap-support/target/composition-bootstrap-support-1.0.0-SNAPSHOT.jar
@@ -738,12 +738,12 @@ Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-command-line-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-command-line-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-command-line-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-command-line-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-command-line-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-command-line-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-command-line-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-command-line-impl/target/classes
 [INFO] /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-command-line-impl/src/main/java/org/fluidity/composition/cli/impl/RuntimeTermination.java: /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-command-line-impl/src/main/java/org/fluidity/composition/cli/impl/RuntimeTermination.java uses unchecked or unsafe operations.
@@ -756,7 +756,7 @@ Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.composition.cli.impl.RuntimeTermination
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-command-line-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-command-line-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-command-line-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-command-line-impl
@@ -812,12 +812,12 @@ Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-container-support-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-container-support-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-container-support-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-support-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-container-support-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-container-support-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 13 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support-impl/target/classes
 [INFO] 
@@ -825,27 +825,27 @@ Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Service provider descriptor META-INF/services/org.fluidity.composition.ContainerServicesFactory contains:
 [INFO]   org.fluidity.composition.container.impl.ProductionServicesFactory
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-container-support-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-container-support-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-support-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ composition-container-support-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ composition-container-support-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 6 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support-impl/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ composition-container-support-impl ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.501 sec - in TestSuite
-
-Results :
-
-Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ composition-container-support-impl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.543 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ composition-container-support-impl ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-support-impl/target/composition-container-support-impl-1.0.0-SNAPSHOT.jar
@@ -865,16 +865,18 @@ Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-container-tests ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-tests/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-container-tests ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-container-tests ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 3 resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-tests
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-container-tests ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-container-tests ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 19 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-tests/target/classes
+[INFO] /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-tests/src/main/java/org/fluidity/composition/container/tests/TypeParameterTests.java: /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-tests/src/main/java/org/fluidity/composition/container/tests/TypeParameterTests.java uses unchecked or unsafe operations.
+[INFO] /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-tests/src/main/java/org/fluidity/composition/container/tests/TypeParameterTests.java: Recompile with -Xlint:unchecked for details.
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-container-tests ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-container-tests ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-tests/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-tests
@@ -897,12 +899,12 @@ Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-container-simple-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-simple-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-container-simple-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-container-simple-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-simple-impl/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-simple-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-container-simple-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-container-simple-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 14 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-simple-impl/target/classes
 [INFO] 
@@ -910,27 +912,27 @@ Tests run: 28, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Service provider descriptor META-INF/services/org.fluidity.composition.container.spi.ContainerProvider contains:
 [INFO]   org.fluidity.composition.container.ContainerProviderImpl
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-container-simple-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-container-simple-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-simple-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-container-simple-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ composition-container-simple-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ composition-container-simple-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-simple-impl/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ composition-container-simple-impl ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 141, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.099 sec - in TestSuite
-
-Results :
-
-Tests run: 141, Failures: 0, Errors: 0, Skipped: 1
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ composition-container-simple-impl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 140, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.997 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 140, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ composition-container-simple-impl ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-container-simple-impl/target/composition-container-simple-impl-1.0.0-SNAPSHOT.jar
@@ -950,12 +952,12 @@ Tests run: 141, Failures: 0, Errors: 0, Skipped: 1
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-impl/target/classes
 [INFO] 
@@ -969,12 +971,12 @@ Tests run: 141, Failures: 0, Errors: 0, Skipped: 1
 [INFO]   Group members:
 [INFO]     org.fluidity.composition.DeferredReferenceInterceptor
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ composition-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ composition-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-impl/target/test-classes
 [INFO] 
@@ -988,18 +990,18 @@ Tests run: 141, Failures: 0, Errors: 0, Skipped: 1
 [INFO]     org.fluidity.composition.DeferredDependencyTest$AnnotatedDependencyImpl
 [INFO]     org.fluidity.composition.DeferredDependencyTest$ReferenceDependency
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ composition-impl ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.41 sec - in TestSuite
-
-Results :
-
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ composition-impl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ composition-impl ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-impl/target/composition-impl-1.0.0-SNAPSHOT.jar
@@ -1019,12 +1021,12 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-web-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-web-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ composition-web-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ composition-web-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-web-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-web-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-web-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-web-impl/target/classes
 [INFO] 
@@ -1039,7 +1041,7 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.composition.web.impl.WebApplicationTermination
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ composition-web-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ composition-web-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/composition/composition-web-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/composition-web-impl
@@ -1073,16 +1075,16 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ cli-bootstrap-spi ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/cli-bootstrap-spi/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ cli-bootstrap-spi ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ cli-bootstrap-spi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/cli-bootstrap-spi/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/cli-bootstrap-spi
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ cli-bootstrap-spi ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ cli-bootstrap-spi ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/cli-bootstrap-spi/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ cli-bootstrap-spi ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ cli-bootstrap-spi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/cli-bootstrap-spi/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/cli-bootstrap-spi
@@ -1105,18 +1107,18 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ cli-bootstrap ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/cli-bootstrap/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ cli-bootstrap ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ cli-bootstrap ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/cli-bootstrap/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/cli-bootstrap
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ cli-bootstrap ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ cli-bootstrap ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/cli-bootstrap/target/classes
 [INFO] 
 [INFO] --- composition-maven-plugin:1.0.0-SNAPSHOT:process-annotations (default) @ cli-bootstrap ---
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ cli-bootstrap ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ cli-bootstrap ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/cli-bootstrap/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/cli-bootstrap
@@ -1139,16 +1141,16 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ war-bootstrap-spi ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/war-bootstrap-spi/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ war-bootstrap-spi ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ war-bootstrap-spi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/war-bootstrap-spi/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/war-bootstrap-spi
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ war-bootstrap-spi ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ war-bootstrap-spi ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/war-bootstrap-spi/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ war-bootstrap-spi ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ war-bootstrap-spi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/war-bootstrap-spi/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/war-bootstrap-spi
@@ -1171,16 +1173,16 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ osgi-application-bootstrap-spi ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-application-bootstrap-spi/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ osgi-application-bootstrap-spi ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ osgi-application-bootstrap-spi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-application-bootstrap-spi/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-application-bootstrap-spi
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ osgi-application-bootstrap-spi ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ osgi-application-bootstrap-spi ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-application-bootstrap-spi/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ osgi-application-bootstrap-spi ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ osgi-application-bootstrap-spi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-application-bootstrap-spi/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-application-bootstrap-spi
@@ -1203,18 +1205,18 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ osgi-composition-api ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-composition-api/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ osgi-composition-api ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ osgi-composition-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-composition-api/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-composition-api
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ osgi-composition-api ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ osgi-composition-api ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-composition-api/target/classes
 [INFO] 
 [INFO] --- composition-maven-plugin:1.0.0-SNAPSHOT:process-annotations (default) @ osgi-composition-api ---
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ osgi-composition-api ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ osgi-composition-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-composition-api/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-composition-api
@@ -1270,12 +1272,12 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ osgi-bundle-bootstrap-shared ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-shared/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ osgi-bundle-bootstrap-shared ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ osgi-bundle-bootstrap-shared ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-bundle-bootstrap-shared
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ osgi-bundle-bootstrap-shared ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ osgi-bundle-bootstrap-shared ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 9 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-shared/target/classes
 [INFO] 
@@ -1288,12 +1290,12 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.deployment.osgi.impl.BundleComponentContainerImpl
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ osgi-bundle-bootstrap-shared ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ osgi-bundle-bootstrap-shared ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-shared/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-bundle-bootstrap-shared
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ osgi-bundle-bootstrap-shared ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ osgi-bundle-bootstrap-shared ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-shared/target/test-classes
 [INFO] 
@@ -1318,18 +1320,18 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.deployment.osgi.impl.DummyContainerTermination
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ osgi-bundle-bootstrap-shared ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.fluidity.deployment.osgi.impl.BundleComponentContainerLogicTest
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.537 sec - in org.fluidity.deployment.osgi.impl.BundleComponentContainerLogicTest
-
-Results :
-
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ osgi-bundle-bootstrap-shared ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.fluidity.deployment.osgi.impl.BundleComponentContainerLogicTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.477 s - in org.fluidity.deployment.osgi.impl.BundleComponentContainerLogicTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ osgi-bundle-bootstrap-shared ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-shared/target/osgi-bundle-bootstrap-shared-1.0.0-SNAPSHOT.jar
@@ -1349,12 +1351,12 @@ Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ osgi-bundle-bootstrap-local ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-local/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ osgi-bundle-bootstrap-local ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ osgi-bundle-bootstrap-local ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-bundle-bootstrap-local
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ osgi-bundle-bootstrap-local ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ osgi-bundle-bootstrap-local ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-local/target/classes
 [INFO] 
@@ -1369,27 +1371,27 @@ Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Group members:
 [INFO]     org.fluidity.deployment.osgi.impl.ServiceImportInterceptor
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ osgi-bundle-bootstrap-local ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ osgi-bundle-bootstrap-local ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-local/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-bundle-bootstrap-local
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ osgi-bundle-bootstrap-local ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ osgi-bundle-bootstrap-local ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 6 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-local/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ osgi-bundle-bootstrap-local ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.fluidity.deployment.osgi.impl.BundleBoundaryImplTest
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.283 sec - in org.fluidity.deployment.osgi.impl.BundleBoundaryImplTest
-
-Results :
-
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ osgi-bundle-bootstrap-local ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.fluidity.deployment.osgi.impl.BundleBoundaryImplTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.235 s - in org.fluidity.deployment.osgi.impl.BundleBoundaryImplTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ osgi-bundle-bootstrap-local ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-bundle-bootstrap-local/target/osgi-bundle-bootstrap-local-1.0.0-SNAPSHOT.jar
@@ -1420,12 +1422,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ osgi-application-bootstrap ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-application-bootstrap/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ osgi-application-bootstrap ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ osgi-application-bootstrap ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 2 resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-application-bootstrap
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ osgi-application-bootstrap ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ osgi-application-bootstrap ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-application-bootstrap/target/classes
 [INFO] 
@@ -1436,7 +1438,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.deployment.launcher.OsgiApplication
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ osgi-application-bootstrap ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ osgi-application-bootstrap ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/deployment/osgi-application-bootstrap/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/osgi-application-bootstrap
@@ -1459,16 +1461,16 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ war-bootstrap ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/war-bootstrap/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ war-bootstrap ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ war-bootstrap ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/war-bootstrap/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/war-bootstrap
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ war-bootstrap ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ war-bootstrap ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/build/war-bootstrap/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ war-bootstrap ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ war-bootstrap ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/war-bootstrap/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/war-bootstrap
@@ -1491,18 +1493,18 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ jetty-server-utils ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/jetty-server-utils/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jetty-server-utils ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ jetty-server-utils ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/jetty-server-utils/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/jetty-server-utils
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jetty-server-utils ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jetty-server-utils ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/build/jetty-server-utils/target/classes
 [INFO] 
 [INFO] --- composition-maven-plugin:1.0.0-SNAPSHOT:process-annotations (default) @ jetty-server-utils ---
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jetty-server-utils ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ jetty-server-utils ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/jetty-server-utils/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/jetty-server-utils
@@ -1525,12 +1527,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ war-bootstrap-jetty-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/war-bootstrap-jetty-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ war-bootstrap-jetty-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ war-bootstrap-jetty-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/war-bootstrap-jetty-impl/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/war-bootstrap-jetty-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ war-bootstrap-jetty-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ war-bootstrap-jetty-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/build/war-bootstrap-jetty-impl/target/classes
 [INFO] 
@@ -1538,7 +1540,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Service provider descriptor META-INF/services/org.fluidity.deployment.plugin.spi.ServerBootstrap contains:
 [INFO]   org.fluidity.deployment.plugin.impl.JettyBootstrap
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ war-bootstrap-jetty-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ war-bootstrap-jetty-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/war-bootstrap-jetty-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/war-bootstrap-jetty-impl
@@ -1561,16 +1563,16 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ manifest-handler-api ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/manifest-handler-api/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ manifest-handler-api ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ manifest-handler-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/manifest-handler-api/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/manifest-handler-api
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ manifest-handler-api ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ manifest-handler-api ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/build/manifest-handler-api/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ manifest-handler-api ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ manifest-handler-api ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/manifest-handler-api/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/manifest-handler-api
@@ -1593,21 +1595,21 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ standalone-jar-maven-plugin ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-jar-maven-plugin/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ standalone-jar-maven-plugin ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ standalone-jar-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-jar-maven-plugin/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/standalone-jar-maven-plugin
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ standalone-jar-maven-plugin ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ standalone-jar-maven-plugin ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-jar-maven-plugin/target/classes
 [INFO] 
-[INFO] --- maven-plugin-plugin:3.4:descriptor (default-descriptor) @ standalone-jar-maven-plugin ---
-[INFO] Using 'UTF-8' encoding to read mojo metadata.
-[INFO] Mojo extractor with id: java-javadoc found 0 mojo descriptors.
-[INFO] Mojo extractor with id: java-annotations found 2 mojo descriptors.
+[INFO] --- maven-plugin-plugin:3.5:descriptor (default-descriptor) @ standalone-jar-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 2 mojo descriptors.
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ standalone-jar-maven-plugin ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ standalone-jar-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-jar-maven-plugin/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/standalone-jar-maven-plugin
@@ -1615,7 +1617,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ standalone-jar-maven-plugin ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-jar-maven-plugin/target/standalone-jar-maven-plugin-1.0.0-SNAPSHOT.jar
 [INFO] 
-[INFO] --- maven-plugin-plugin:3.4:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ standalone-jar-maven-plugin ---
+[INFO] --- maven-plugin-plugin:3.5:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ standalone-jar-maven-plugin ---
 [INFO] 
 [INFO] --- maven-source-plugin:3.0.1:jar-no-fork (default) @ standalone-jar-maven-plugin ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-jar-maven-plugin/target/standalone-jar-maven-plugin-1.0.0-SNAPSHOT-sources.jar
@@ -1632,21 +1634,21 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ standalone-war-maven-plugin ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-war-maven-plugin/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ standalone-war-maven-plugin ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ standalone-war-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-war-maven-plugin/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/standalone-war-maven-plugin
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ standalone-war-maven-plugin ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ standalone-war-maven-plugin ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-war-maven-plugin/target/classes
 [INFO] 
-[INFO] --- maven-plugin-plugin:3.4:descriptor (default-descriptor) @ standalone-war-maven-plugin ---
-[INFO] Using 'UTF-8' encoding to read mojo metadata.
-[INFO] Mojo extractor with id: java-javadoc found 0 mojo descriptors.
-[INFO] Mojo extractor with id: java-annotations found 1 mojo descriptors.
+[INFO] --- maven-plugin-plugin:3.5:descriptor (default-descriptor) @ standalone-war-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 1 mojo descriptor.
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ standalone-war-maven-plugin ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ standalone-war-maven-plugin ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-war-maven-plugin/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/standalone-war-maven-plugin
@@ -1654,7 +1656,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ standalone-war-maven-plugin ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-war-maven-plugin/target/standalone-war-maven-plugin-1.0.0-SNAPSHOT.jar
 [INFO] 
-[INFO] --- maven-plugin-plugin:3.4:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ standalone-war-maven-plugin ---
+[INFO] --- maven-plugin-plugin:3.5:addPluginArtifactMetadata (default-addPluginArtifactMetadata) @ standalone-war-maven-plugin ---
 [INFO] 
 [INFO] --- maven-source-plugin:3.0.1:jar-no-fork (default) @ standalone-war-maven-plugin ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/build/plugins/standalone-war-maven-plugin/target/standalone-war-maven-plugin-1.0.0-SNAPSHOT-sources.jar
@@ -1682,11 +1684,11 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ fluidity-root-module ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/project-root/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ fluidity-root-module ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ fluidity-root-module ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 3 resources
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ fluidity-root-module ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ fluidity-root-module ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/project-root/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-root-module
@@ -1714,12 +1716,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ fluidity-api-module ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/api-module/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ fluidity-api-module ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ fluidity-api-module ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 4 resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-api-module
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ fluidity-api-module ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ fluidity-api-module ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/api-module/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-api-module
@@ -1747,12 +1749,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ fluidity-impl-module ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/impl-module/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ fluidity-impl-module ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ fluidity-impl-module ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 5 resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-impl-module
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ fluidity-impl-module ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ fluidity-impl-module ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/impl-module/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-impl-module
@@ -1780,12 +1782,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ fluidity-standalone-jar ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/standalone-jar/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ fluidity-standalone-jar ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ fluidity-standalone-jar ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 5 resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-standalone-jar
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ fluidity-standalone-jar ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ fluidity-standalone-jar ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/standalone-jar/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-standalone-jar
@@ -1813,12 +1815,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ fluidity-standalone-war ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/standalone-war/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ fluidity-standalone-war ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ fluidity-standalone-war ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 6 resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-standalone-war
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ fluidity-standalone-war ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ fluidity-standalone-war ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/standalone-war/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-standalone-war
@@ -1846,12 +1848,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ fluidity-standalone-osgi ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/standalone-osgi/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ fluidity-standalone-osgi ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ fluidity-standalone-osgi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 3 resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-standalone-osgi
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ fluidity-standalone-osgi ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ fluidity-standalone-osgi ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/standalone-osgi/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-standalone-osgi
@@ -1879,12 +1881,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ fluidity-osgi-bundle ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/osgi-bundle/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ fluidity-osgi-bundle ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ fluidity-osgi-bundle ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 8 resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-osgi-bundle
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ fluidity-osgi-bundle ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ fluidity-osgi-bundle ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/build/archetypes/osgi-bundle/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform.archetypes/fluidity-osgi-bundle
@@ -1912,12 +1914,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ logging-slf4j-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-slf4j-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ logging-slf4j-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ logging-slf4j-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-slf4j-impl/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-slf4j-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ logging-slf4j-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ logging-slf4j-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-slf4j-impl/target/classes
 [INFO] 
@@ -1930,7 +1932,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.foundation.impl.Slf4jLogFactory
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ logging-slf4j-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ logging-slf4j-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-slf4j-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-slf4j-impl
@@ -1953,12 +1955,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ logging-java-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-java-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ logging-java-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ logging-java-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-java-impl/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-java-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ logging-java-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ logging-java-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-java-impl/target/classes
 [INFO] 
@@ -1971,7 +1973,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.foundation.impl.JavaLogFactory
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ logging-java-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ logging-java-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-java-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-java-impl
@@ -1994,12 +1996,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ logging-commons-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-commons-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ logging-commons-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ logging-commons-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-commons-impl/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-commons-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ logging-commons-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ logging-commons-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-commons-impl/target/classes
 [INFO] 
@@ -2012,7 +2014,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO]   Components:
 [INFO]     org.fluidity.foundation.impl.CommonsLogFactory
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ logging-commons-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ logging-commons-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-commons-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-commons-impl
@@ -2035,12 +2037,12 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ logging-jmx ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-jmx/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ logging-jmx ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ logging-jmx ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-jmx/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-jmx
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ logging-jmx ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ logging-jmx ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-jmx/target/classes
 [INFO] 
@@ -2048,27 +2050,27 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 [INFO] Service provider descriptor META-INF/services/bindings/org.fluidity.composition.spi.PackageBindings contains:
 [INFO]   org.fluidity.management.LoggingMBeanBootstrap
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ logging-jmx ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ logging-jmx ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-jmx/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/logging-jmx
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ logging-jmx ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ logging-jmx ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-jmx/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ logging-jmx ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.fluidity.management.LoggingMBeanBootstrapTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.355 sec - in org.fluidity.management.LoggingMBeanBootstrapTest
-
-Results :
-
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ logging-jmx ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.fluidity.management.LoggingMBeanBootstrapTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.288 s - in org.fluidity.management.LoggingMBeanBootstrapTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ logging-jmx ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/features/logging-jmx/target/logging-jmx-1.0.0-SNAPSHOT.jar
@@ -2088,16 +2090,16 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ jar-manifest-command-launcher-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/jar-manifest-command-launcher-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jar-manifest-command-launcher-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ jar-manifest-command-launcher-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/jar-manifest-command-launcher-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jar-manifest-command-launcher-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jar-manifest-command-launcher-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/jar-manifest-command-launcher-impl/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jar-manifest-command-launcher-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ jar-manifest-command-launcher-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/jar-manifest-command-launcher-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/jar-manifest-command-launcher-impl
@@ -2120,35 +2122,35 @@ Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ jar-manifest-osgi-bundle-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/jar-manifest-osgi-bundle-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ jar-manifest-osgi-bundle-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ jar-manifest-osgi-bundle-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/jar-manifest-osgi-bundle-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ jar-manifest-osgi-bundle-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jar-manifest-osgi-bundle-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/jar-manifest-osgi-bundle-impl/target/classes
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ jar-manifest-osgi-bundle-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ jar-manifest-osgi-bundle-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 2 resources
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ jar-manifest-osgi-bundle-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ jar-manifest-osgi-bundle-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/jar-manifest-osgi-bundle-impl/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ jar-manifest-osgi-bundle-impl ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.411 sec - in TestSuite
-
-Results :
-
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ jar-manifest-osgi-bundle-impl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ jar-manifest-osgi-bundle-impl ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/features/jar-manifest-osgi-bundle-impl/target/jar-manifest-osgi-bundle-impl-1.0.0-SNAPSHOT.jar
@@ -2168,12 +2170,12 @@ Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ foundation-scheduling-impl ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-impl/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ foundation-scheduling-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ foundation-scheduling-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-impl/src/main/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-scheduling-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ foundation-scheduling-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundation-scheduling-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 3 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-impl/target/classes
 [INFO] 
@@ -2186,27 +2188,27 @@ Tests run: 19, Failures: 0, Errors: 0, Skipped: 0
 [INFO]     org.fluidity.features.impl.DynamicConfigurationFactory
 [INFO]     org.fluidity.features.impl.SchedulerImpl
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ foundation-scheduling-impl ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ foundation-scheduling-impl ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-impl/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/foundation-scheduling-impl
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ foundation-scheduling-impl ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ foundation-scheduling-impl ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 2 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-impl/target/test-classes
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ foundation-scheduling-impl ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.777 sec - in TestSuite
-
-Results :
-
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ foundation-scheduling-impl ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.722 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ foundation-scheduling-impl ---
 [INFO] Building jar: /Users/fluidity/Work/Fluid Tools/fluid-tools/features/foundation-scheduling-impl/target/foundation-scheduling-impl-1.0.0-SNAPSHOT.jar
@@ -2226,17 +2228,17 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ remote-launcher ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/features/remote-launcher/target
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ remote-launcher ---
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ remote-launcher ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] Copying 1 resource
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/remote-launcher
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ remote-launcher ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ remote-launcher ---
 [INFO] No sources to compile
 [INFO] 
 [INFO] --- composition-maven-plugin:1.0.0-SNAPSHOT:process-annotations (default) @ remote-launcher ---
 [INFO] 
-[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ remote-launcher ---
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ remote-launcher ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
 [INFO] skip non existing resourceDirectory /Users/fluidity/Work/Fluid Tools/fluid-tools/features/remote-launcher/src/test/resources
 [INFO] Copying 1 resource to META-INF/licenses/org.fluidity.platform/remote-launcher
@@ -2279,7 +2281,7 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ composition-maven-plugin-tests ---
 [INFO] Deleting /Users/fluidity/Work/Fluid Tools/fluid-tools/tests/composition-maven-plugin-tests/target
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ composition-maven-plugin-tests ---
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ composition-maven-plugin-tests ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 12 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/tests/composition-maven-plugin-tests/target/classes
 [INFO] 
@@ -2318,24 +2320,24 @@ Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
 [INFO]     org.fluidity.maven.SimpleServiceProvider4
 [INFO]     org.fluidity.maven.MultipleServiceProviders
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ composition-maven-plugin-tests ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ composition-maven-plugin-tests ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 1 source file to /Users/fluidity/Work/Fluid Tools/fluid-tools/tests/composition-maven-plugin-tests/target/test-classes
 [INFO] 
 [INFO] --- composition-maven-plugin:1.0.0-SNAPSHOT:process-test-annotations (default) @ composition-maven-plugin-tests ---
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ composition-maven-plugin-tests ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running org.fluidity.maven.ComponentRegistrationTest
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.399 sec - in org.fluidity.maven.ComponentRegistrationTest
-
-Results :
-
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ composition-maven-plugin-tests ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.fluidity.maven.ComponentRegistrationTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.36 s - in org.fluidity.maven.ComponentRegistrationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-source-plugin:3.0.1:jar-no-fork (default) @ composition-maven-plugin-tests ---
 [INFO]                                                                         
@@ -2348,7 +2350,7 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO] 
 [INFO] --- composition-maven-plugin:1.0.0-SNAPSHOT:process-annotations (default) @ foundation-tests ---
 [INFO] 
-[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ foundation-tests ---
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ foundation-tests ---
 [INFO] Changes detected - recompiling the module!
 [INFO] Compiling 8 source files to /Users/fluidity/Work/Fluid Tools/fluid-tools/tests/foundation-tests/target/test-classes
 [INFO] 
@@ -2360,18 +2362,18 @@ Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
 [INFO]     org.fluidity.foundation.ConfigurationTest$DefaultSettings
 [INFO]     org.fluidity.foundation.EchoPropertyProviderImpl
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ foundation-tests ---
-
--------------------------------------------------------
- T E S T S
--------------------------------------------------------
-Running TestSuite
-Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.543 sec - in TestSuite
-
-Results :
-
-Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
-
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ foundation-tests ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.504 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
 [INFO] 
 [INFO] --- maven-source-plugin:3.0.1:jar-no-fork (default) @ foundation-tests ---
 [INFO]                                                                         
@@ -2410,82 +2412,82 @@ Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO] 
-[INFO] Fluid Tools ........................................ SUCCESS [  7.946 s]
-[INFO] Foundation: Foundation Tools Modules ............... SUCCESS [  0.006 s]
-[INFO] Foundation: Core API ............................... SUCCESS [  0.816 s]
-[INFO] Foundation: Security ............................... SUCCESS [  0.172 s]
-[INFO] Foundation: Core Utilities ......................... SUCCESS [  2.178 s]
-[INFO] Composition: Composition Tools Modules ............. SUCCESS [  0.003 s]
-[INFO] Composition: Core API .............................. SUCCESS [  0.158 s]
-[INFO] Foundation: EasyMock Utilities ..................... SUCCESS [  1.430 s]
+[INFO] Fluid Tools ........................................ SUCCESS [  8.595 s]
+[INFO] Foundation: Foundation Tools Modules ............... SUCCESS [  0.007 s]
+[INFO] Foundation: Core API ............................... SUCCESS [  0.848 s]
+[INFO] Foundation: Security ............................... SUCCESS [  0.236 s]
+[INFO] Foundation: Core Utilities ......................... SUCCESS [  2.322 s]
+[INFO] Composition: Composition Tools Modules ............. SUCCESS [  0.004 s]
+[INFO] Composition: Core API .............................. SUCCESS [  0.165 s]
+[INFO] Foundation: EasyMock Utilities ..................... SUCCESS [  1.371 s]
 [INFO] Fluid Tools: Build Support ......................... SUCCESS [  0.004 s]
-[INFO] Build Support: Maven Dependency Utilities .......... SUCCESS [  0.402 s]
+[INFO] Build Support: Maven Dependency Utilities .......... SUCCESS [  0.409 s]
 [INFO] Fluid Tools: Build Plugins ......................... SUCCESS [  0.004 s]
-[INFO] Build Plugins: Composition ......................... SUCCESS [  0.469 s]
-[INFO] Foundation: Core Implementation .................... SUCCESS [  1.233 s]
-[INFO] Fluid Tools: Feature Modules ....................... SUCCESS [  0.004 s]
-[INFO] Features: Scheduling API ........................... SUCCESS [  0.047 s]
-[INFO] Foundation: Core Test Support ...................... SUCCESS [  0.062 s]
-[INFO] Composition: Container SPI ......................... SUCCESS [  0.081 s]
-[INFO] Composition: Container Support ..................... SUCCESS [  1.112 s]
-[INFO] Fluid Tools: Log Sink Implementation ............... SUCCESS [  0.046 s]
-[INFO] Composition: Bootstrap Utilities ................... SUCCESS [  1.279 s]
-[INFO] Composition: Command Line Components ............... SUCCESS [  0.062 s]
+[INFO] Build Plugins: Composition ......................... SUCCESS [  0.531 s]
+[INFO] Foundation: Core Implementation .................... SUCCESS [  1.271 s]
+[INFO] Fluid Tools: Feature Modules ....................... SUCCESS [  0.003 s]
+[INFO] Features: Scheduling API ........................... SUCCESS [  0.045 s]
+[INFO] Foundation: Core Test Support ...................... SUCCESS [  0.061 s]
+[INFO] Composition: Container SPI ......................... SUCCESS [  0.084 s]
+[INFO] Composition: Container Support ..................... SUCCESS [  1.162 s]
+[INFO] Fluid Tools: Log Sink Implementation ............... SUCCESS [  0.051 s]
+[INFO] Composition: Bootstrap Utilities ................... SUCCESS [  1.241 s]
+[INFO] Composition: Command Line Components ............... SUCCESS [  0.063 s]
 [INFO] Fluid Tools: Public Dependencies ................... SUCCESS [  0.004 s]
-[INFO] Fluid Tools: Component API ......................... SUCCESS [  0.003 s]
-[INFO] Fluid Tools: Boundary API .......................... SUCCESS [  0.003 s]
-[INFO] Composition: Container Support Implementation ...... SUCCESS [  1.388 s]
-[INFO] Composition: Core Tests ............................ SUCCESS [  0.466 s]
-[INFO] Composition: Simple Container Implementation ....... SUCCESS [  1.798 s]
-[INFO] Composition: Composition Implementation ............ SUCCESS [  1.123 s]
-[INFO] Composition: Web Components ........................ SUCCESS [  0.079 s]
-[INFO] Deployment Tools Modules ........................... SUCCESS [  0.003 s]
-[INFO] Deployment: CLI Bootstrap SPI ...................... SUCCESS [  0.044 s]
-[INFO] Deployment: CLI Bootstrap .......................... SUCCESS [  0.061 s]
-[INFO] Deployment: WAR Bootstrap SPI ...................... SUCCESS [  0.035 s]
-[INFO] Deployment: OSGi Bootstrap SPI ..................... SUCCESS [  0.039 s]
-[INFO] Deployment: OSGi Composition API ................... SUCCESS [  0.082 s]
+[INFO] Fluid Tools: Component API ......................... SUCCESS [  0.004 s]
+[INFO] Fluid Tools: Boundary API .......................... SUCCESS [  0.004 s]
+[INFO] Composition: Container Support Implementation ...... SUCCESS [  1.460 s]
+[INFO] Composition: Core Tests ............................ SUCCESS [  0.453 s]
+[INFO] Composition: Simple Container Implementation ....... SUCCESS [  1.696 s]
+[INFO] Composition: Composition Implementation ............ SUCCESS [  1.046 s]
+[INFO] Composition: Web Components ........................ SUCCESS [  0.064 s]
+[INFO] Deployment Tools Modules ........................... SUCCESS [  0.004 s]
+[INFO] Deployment: CLI Bootstrap SPI ...................... SUCCESS [  0.035 s]
+[INFO] Deployment: CLI Bootstrap .......................... SUCCESS [  0.059 s]
+[INFO] Deployment: WAR Bootstrap SPI ...................... SUCCESS [  0.030 s]
+[INFO] Deployment: OSGi Bootstrap SPI ..................... SUCCESS [  0.040 s]
+[INFO] Deployment: OSGi Composition API ................... SUCCESS [  0.067 s]
 [INFO] Fluid Tools: Testing Support ....................... SUCCESS [  0.003 s]
 [INFO] Fluid Tools: Bootstrap Module ...................... SUCCESS [  0.004 s]
 [INFO] Fluid Tools: Generic Deployment .................... SUCCESS [  0.004 s]
-[INFO] Deployment: OSGi Bundle Bootstrap (Shared) ......... SUCCESS [  1.477 s]
-[INFO] Deployment: OSGi Bundle Bootstrap (Local) .......... SUCCESS [  0.928 s]
-[INFO] Fluid Tools: Command Line Deployment ............... SUCCESS [  0.005 s]
-[INFO] Deployment: OSGi Application Bootstrap ............. SUCCESS [  0.097 s]
-[INFO] Build Support: WAR Bootstrap ....................... SUCCESS [  0.061 s]
-[INFO] Build Support: Jetty Server ........................ SUCCESS [  0.167 s]
-[INFO] Build Support: Jetty Bootstrap ..................... SUCCESS [  0.315 s]
-[INFO] Build Support: Manifest Handler API ................ SUCCESS [  0.070 s]
-[INFO] Build Plugins: Standalone JAR ...................... SUCCESS [  0.286 s]
-[INFO] Build Plugins: Standalone WAR ...................... SUCCESS [  0.268 s]
-[INFO] Archetype: Maven Archetype Modules ................. SUCCESS [  0.099 s]
-[INFO] Archetype: Root Module ............................. SUCCESS [  0.300 s]
-[INFO] Archetype: Component API ........................... SUCCESS [  0.027 s]
-[INFO] Archetype: Component Implementation ................ SUCCESS [  0.036 s]
-[INFO] Archetype: Standalone JAR .......................... SUCCESS [  0.025 s]
-[INFO] Archetype: Standalone WAR .......................... SUCCESS [  0.040 s]
-[INFO] Archetype: Standalone OSGi JAR ..................... SUCCESS [  0.029 s]
-[INFO] Archetype: OSGi Bundle ............................. SUCCESS [  0.038 s]
-[INFO] Fluid Tools: SLF4J Logging Implementation .......... SUCCESS [  0.057 s]
-[INFO] Fluid Tools: Java Logging Implementation ........... SUCCESS [  0.055 s]
-[INFO] Fluid Tools: Commons Logging Implementation ........ SUCCESS [  0.051 s]
-[INFO] Fluid Tools: Logging Management with JMX ........... SUCCESS [  0.935 s]
-[INFO] Fluid Tools: Command Line Manifest ................. SUCCESS [  0.052 s]
-[INFO] Fluid Tools: OSGi Manifest ......................... SUCCESS [  1.158 s]
-[INFO] Features: Scheduling Implementation ................ SUCCESS [  4.443 s]
-[INFO] Fluid Tools: Remote Launcher ....................... SUCCESS [  0.134 s]
+[INFO] Deployment: OSGi Bundle Bootstrap (Shared) ......... SUCCESS [  1.370 s]
+[INFO] Deployment: OSGi Bundle Bootstrap (Local) .......... SUCCESS [  0.878 s]
+[INFO] Fluid Tools: Command Line Deployment ............... SUCCESS [  0.004 s]
+[INFO] Deployment: OSGi Application Bootstrap ............. SUCCESS [  0.087 s]
+[INFO] Build Support: WAR Bootstrap ....................... SUCCESS [  0.063 s]
+[INFO] Build Support: Jetty Server ........................ SUCCESS [  0.177 s]
+[INFO] Build Support: Jetty Bootstrap ..................... SUCCESS [  0.316 s]
+[INFO] Build Support: Manifest Handler API ................ SUCCESS [  0.076 s]
+[INFO] Build Plugins: Standalone JAR ...................... SUCCESS [  0.310 s]
+[INFO] Build Plugins: Standalone WAR ...................... SUCCESS [  0.222 s]
+[INFO] Archetype: Maven Archetype Modules ................. SUCCESS [  0.097 s]
+[INFO] Archetype: Root Module ............................. SUCCESS [  0.303 s]
+[INFO] Archetype: Component API ........................... SUCCESS [  0.034 s]
+[INFO] Archetype: Component Implementation ................ SUCCESS [  0.038 s]
+[INFO] Archetype: Standalone JAR .......................... SUCCESS [  0.035 s]
+[INFO] Archetype: Standalone WAR .......................... SUCCESS [  0.036 s]
+[INFO] Archetype: Standalone OSGi JAR ..................... SUCCESS [  0.026 s]
+[INFO] Archetype: OSGi Bundle ............................. SUCCESS [  0.037 s]
+[INFO] Fluid Tools: SLF4J Logging Implementation .......... SUCCESS [  0.050 s]
+[INFO] Fluid Tools: Java Logging Implementation ........... SUCCESS [  0.052 s]
+[INFO] Fluid Tools: Commons Logging Implementation ........ SUCCESS [  0.052 s]
+[INFO] Fluid Tools: Logging Management with JMX ........... SUCCESS [  0.868 s]
+[INFO] Fluid Tools: Command Line Manifest ................. SUCCESS [  0.067 s]
+[INFO] Fluid Tools: OSGi Manifest ......................... SUCCESS [  1.092 s]
+[INFO] Features: Scheduling Implementation ................ SUCCESS [  4.363 s]
+[INFO] Fluid Tools: Remote Launcher ....................... SUCCESS [  0.138 s]
 [INFO] Fluid Tools Internal Test Modules .................. SUCCESS [  0.001 s]
-[INFO] Internal Tests: Composition Plugin ................. SUCCESS [  1.102 s]
-[INFO] Internal Tests: Foundation ......................... SUCCESS [  1.240 s]
-[INFO] Fluid Tools: OSGi Deployment ....................... SUCCESS [  0.004 s]
-[INFO] Fluid Tools: Complete OSGi Bundle .................. SUCCESS [  0.005 s]
-[INFO] Fluid Tools: Web Deployment ........................ SUCCESS [  0.004 s]
+[INFO] Internal Tests: Composition Plugin ................. SUCCESS [  1.064 s]
+[INFO] Internal Tests: Foundation ......................... SUCCESS [  1.204 s]
+[INFO] Fluid Tools: OSGi Deployment ....................... SUCCESS [  0.003 s]
+[INFO] Fluid Tools: Complete OSGi Bundle .................. SUCCESS [  0.004 s]
+[INFO] Fluid Tools: Web Deployment ........................ SUCCESS [  0.003 s]
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 36.817 s
-[INFO] Finished at: 2016-08-20T02:44:36+03:00
-[INFO] Final Memory: 72M/240M
+[INFO] Total time: 37.339 s
+[INFO] Finished at: 2018-01-11T00:16:13+02:00
+[INFO] Final Memory: 72M/242M
 [INFO] ------------------------------------------------------------------------
 x repository/org/fluidity/platform/
 x repository/org/fluidity/platform/1.0.0-SNAPSHOT/
@@ -2816,6 +2818,7 @@ x repository/org/fluidity/platform/logging-slf4j-impl/1.0.0-SNAPSHOT/logging-slf
 x repository/org/fluidity/platform/logging-slf4j-impl/1.0.0-SNAPSHOT/maven-metadata-local.xml
 x repository/org/fluidity/platform/logging-slf4j-impl/1.0.0-SNAPSHOT/maven-metadata-local.xml.md5
 x repository/org/fluidity/platform/logging-slf4j-impl/1.0.0-SNAPSHOT/maven-metadata-local.xml.sha1
+x repository/org/fluidity/platform/logging-slf4j-impl/1.0.0-SNAPSHOT/resolver-status.properties
 x repository/org/fluidity/platform/logging-sink-impl/1.0.0-SNAPSHOT/
 x repository/org/fluidity/platform/logging-sink-impl/maven-metadata-local.xml
 x repository/org/fluidity/platform/logging-sink-impl/maven-metadata-local.xml.md5
@@ -3141,6 +3144,8 @@ x repository/org/fluidity/platform/fluid-tools-generic-application/1.0.0-SNAPSHO
 x repository/org/fluidity/platform/fluid-tools-generic-application/maven-metadata-local.xml
 x repository/org/fluidity/platform/fluid-tools-generic-application/maven-metadata-local.xml.md5
 x repository/org/fluidity/platform/fluid-tools-generic-application/maven-metadata-local.xml.sha1
+x repository/org/fluidity/platform/fluid-tools-generic-application/unknown/
+x repository/org/fluidity/platform/fluid-tools-generic-application/unknown/fluid-tools-generic-application-unknown.pom.lastUpdated
 x repository/org/fluidity/platform/fluid-tools-generic-application/1.0.0-SNAPSHOT/_remote.repositories
 x repository/org/fluidity/platform/fluid-tools-generic-application/1.0.0-SNAPSHOT/fluid-tools-generic-application-1.0.0-SNAPSHOT.pom
 x repository/org/fluidity/platform/fluid-tools-generic-application/1.0.0-SNAPSHOT/fluid-tools-generic-application-1.0.0-SNAPSHOT.pom.md5
@@ -3165,6 +3170,8 @@ x repository/org/fluidity/platform/fluid-tools-cli-application/1.0.0-SNAPSHOT/
 x repository/org/fluidity/platform/fluid-tools-cli-application/maven-metadata-local.xml
 x repository/org/fluidity/platform/fluid-tools-cli-application/maven-metadata-local.xml.md5
 x repository/org/fluidity/platform/fluid-tools-cli-application/maven-metadata-local.xml.sha1
+x repository/org/fluidity/platform/fluid-tools-cli-application/unknown/
+x repository/org/fluidity/platform/fluid-tools-cli-application/unknown/fluid-tools-cli-application-unknown.pom.lastUpdated
 x repository/org/fluidity/platform/fluid-tools-cli-application/1.0.0-SNAPSHOT/_remote.repositories
 x repository/org/fluidity/platform/fluid-tools-cli-application/1.0.0-SNAPSHOT/fluid-tools-cli-application-1.0.0-SNAPSHOT.pom
 x repository/org/fluidity/platform/fluid-tools-cli-application/1.0.0-SNAPSHOT/fluid-tools-cli-application-1.0.0-SNAPSHOT.pom.md5
@@ -3713,7 +3720,7 @@ Generating API docs to /Users/fluidity/Work/Fluid Tools/fluid-tools/staging/apid
 [INFO] ------------------------------------------------------------------------
 [INFO] Reactor Summary:
 [INFO] 
-[INFO] Fluid Tools ........................................ SUCCESS [  5.720 s]
+[INFO] Fluid Tools ........................................ SUCCESS [  5.753 s]
 [INFO] Foundation: Foundation Tools Modules ............... SKIPPED
 [INFO] Foundation: Core API ............................... SKIPPED
 [INFO] Foundation: Security ............................... SKIPPED
@@ -3786,9 +3793,9 @@ Generating API docs to /Users/fluidity/Work/Fluid Tools/fluid-tools/staging/apid
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 6.565 s
-[INFO] Finished at: 2016-08-20T02:44:45+03:00
-[INFO] Final Memory: 23M/232M
+[INFO] Total time: 6.531 s
+[INFO] Finished at: 2018-01-11T00:16:22+02:00
+[INFO] Final Memory: 23M/234M
 [INFO] ------------------------------------------------------------------------
 x ./
 x ./allclasses-frame.html
@@ -3869,7 +3876,6 @@ x ./org/fluidity/foundation/Generics.Parameters.html
 x ./org/fluidity/foundation/IOStreams.html
 x ./org/fluidity/foundation/IOStreams.Output.html
 x ./org/fluidity/foundation/jarjar/
-x ./org/fluidity/foundation/Lists.Delimited.html
 x ./org/fluidity/foundation/Lists.html
 x ./org/fluidity/foundation/Log.html
 x ./org/fluidity/foundation/Methods.html
@@ -3962,7 +3968,6 @@ x ./org/fluidity/foundation/class-use/Generics.html
 x ./org/fluidity/foundation/class-use/Generics.Parameters.html
 x ./org/fluidity/foundation/class-use/IOStreams.html
 x ./org/fluidity/foundation/class-use/IOStreams.Output.html
-x ./org/fluidity/foundation/class-use/Lists.Delimited.html
 x ./org/fluidity/foundation/class-use/Lists.html
 x ./org/fluidity/foundation/class-use/Log.html
 x ./org/fluidity/foundation/class-use/Methods.html
